@@ -27,7 +27,6 @@ with st.sidebar:
 
 # --- SEÇÃO: SOBRE MIM ---
 if menu == "Sobre Mim":
-    st.image("assets/foto.jpg")
     st.title("🚀 Luiz Otávio Valenzi Sousa")
     st.markdown("email:valenzisousaluizotavio@gmail.com")
     st.markdown("Idade: 22 anos")
@@ -154,4 +153,5 @@ elif menu == "Dashboard Admin":
 
 
 st.markdown("<br><center>LZWorldsTech © 2025</center>", unsafe_allow_html=True)
+
 
