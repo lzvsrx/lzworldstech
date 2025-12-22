@@ -28,7 +28,10 @@ with st.sidebar:
 # --- SEÇÃO: SOBRE MIM ---
 if menu == "Sobre Mim":
     st.title("🚀 Luiz Otávio Valenzi Sousa")
-    st.markdown("### <span class='neon-blue'>Engenheiro de Software & Desenvolvedor Full Stack</span>", unsafe_allow_html=True)
+    st.markdown("email:valenzisousaluizotavio@gmail.com")
+    st.markdown("Idade: 22 anos")
+    st.markdown("### <span class='neon-blue'>Engenheiro de Software & Desenvolvedor de aplicativos e sites</span>", unsafe_allow_html=True)
+    st.markdown("Cidade: Pouso Alegre - MG")
     
     col1, col2 = st.columns([2, 1])
     with col1:
@@ -147,5 +150,6 @@ elif menu == "Dashboard Admin":
             st.info("Nenhuma mensagem recebida ainda.")
     elif senha:
         st.error("Senha incorreta.")
+
 
 st.markdown("<br><center>LZWorldsTech © 2025</center>", unsafe_allow_html=True)
