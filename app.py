@@ -85,7 +85,7 @@ elif menu == "Projetos":
             Desenvolvido sob medida para a loja Cores e Fragrâncias by Berenice.
             """)
             st.markdown("<span class='neon-pink'>Status: Projeto Finalizado</span>", unsafe_allow_html=True)
-            st.markdown("[🚀 Acessar Sistema Online](https://coresefragrancias.streamlit.app/)")
+            st.markdown("[🚀 Acessar Sistema Online](https://coresefragranciasbybereniceloja.streamlit.app/)")
         st.markdown('</div>', unsafe_allow_html=True)
 
     # --- PROJETO 2: NTB CALIBRATION ---
@@ -153,5 +153,6 @@ elif menu == "Dashboard Admin":
 
 
 st.markdown("<br><center>LZWorldsTech © 2025</center>", unsafe_allow_html=True)
+
 
 
